@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="gallery.css">
+  <title>Gallery</title>
+</head>
+<body>
+  <section class="gallery">
+    <!-- Back to Home -->
+    <a href="index.html" class="back-home">← Back to Home</a>
+
+    <h1>Gallery</h1>
+    <div class="buttons">
+      <button type="button">All</button>
+      <button type="button" data-btn="1">KISWA</button>
+      <button type="button" data-btn="2">KMOIA</button>
+      <button type="button" data-btn="3">ARTSFEST</button>
+      <button type="button" data-btn="4">OTHERS</button>
+    </div>
+
+    <div class="images">
+      <img src="https://picsum.photos/id/1015/600/600" alt="img" data-img="1">
+      <img src="https://picsum.photos/id/1016/600/600" alt="img" data-img="3">
+      <img src="https://picsum.photos/id/1025/600/600" alt="img" data-img="1">
+      <img src="https://picsum.photos/id/1035/600/600" alt="img" data-img="2">
+      <img src="https://picsum.photos/id/1040/600/600" alt="img" data-img="3">
+      <img src="https://picsum.photos/id/1041/600/600" alt="img" data-img="2">
+      <img src="https://picsum.photos/id/1050/600/600" alt="img" data-img="4">
+      <img src="https://picsum.photos/id/1060/600/600" alt="img" data-img="3">
+      <img src="https://picsum.photos/id/1069/600/600" alt="img" data-img="1">
+      <img src="https://picsum.photos/id/1070/600/600" alt="img" data-img="2">
+      <img src="https://picsum.photos/id/1084/600/600" alt="img" data-img="3">
+      <img src="https://picsum.photos/id/1082/600/600" alt="img" data-img="1">
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <span class="arrow prev">&#10094;</span>
+    <img class="lightbox-content" id="lightbox-img">
+    <span class="arrow next">&#10095;</span>
+  </div>
+
+  <script src="gallery.js"></script>
+</body>
+</html>
